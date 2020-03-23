@@ -6,9 +6,12 @@ import Rooms from "./pages/Rooms";
 import Room from "./pages/Room";
 import Error from "./pages/Error"
 
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <>
+    <Navbar/>
     <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/rooms" component={Rooms}/>
