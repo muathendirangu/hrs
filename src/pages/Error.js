@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import Barner from '../components/Barner';
+import Banner from '../components/Banner';
  const Error = () => {
     return (
         <Hero>
-            <Barner title="404" subtitle="page not found">
+            <Banner title="404" subtitle="page not found">
                 <Link to="/" className="btn-primary">
                     return home
                 </Link>
-            </Barner>
+            </Banner>
         </Hero>
     )
 }
