@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const error = () => {
+ const Error = () => {
     return (
         <div>
             Hello from error page
         </div>
     )
 }
+export default Error;
